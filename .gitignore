@@ -164,3 +164,4 @@ cython_debug/
 hearth_disease_project.docx
 mlruns/
 mlflow_model_csv_data
+hearth_app2.py
