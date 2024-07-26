@@ -162,3 +162,5 @@ cython_debug/
 #.idea/
 
 hearth_disease_project.docx
+mlruns/
+mlflow_model_csv_data
