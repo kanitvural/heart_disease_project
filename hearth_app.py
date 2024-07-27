@@ -3,8 +3,7 @@ import mlflow.pyfunc
 import pandas as pd
 
 # MLflow modeli yükleme
-model_uri = 'file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns'
-model = mlflow.pyfunc.load_model(model_uri)
+model = mlflow.pyfunc.load_model("models:/final_rf_model/1")
 
 # Tahmin fonksiyonu
 def predict_heart_disease(age, sex, chest_pain_type, resting_blood_pressure, serum_cholestoral, fasting_blood_sugar, resting_ecg_results, max_heart_rate_achieved, exercise_induced_angina, oldpeak, slope_peak_exercise_st_segment, number_major_vessels, thal):
