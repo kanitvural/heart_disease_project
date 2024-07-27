@@ -85,7 +85,7 @@ gradio_interface = gr.Interface(
     title="Heart Disease Risk Prediction"
 )
 
-gradio_interface.launch()
+gradio_interface.launch(share=True)
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)

@@ -164,3 +164,5 @@ cython_debug/
 hearth_disease_project.docx
 
 /flagged
+
+*.mp4
