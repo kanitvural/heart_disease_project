@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/d9a43fdfdc83459195b1c0c499d141f9/artifacts
+end_time: 1722055722721
+entry_point_name: ''
+experiment_id: '367194866272300660'
+lifecycle_stage: active
+run_id: d9a43fdfdc83459195b1c0c499d141f9
+run_name: gaudy-gnu-458
+run_uuid: d9a43fdfdc83459195b1c0c499d141f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722055722665
+status: 4
+tags: []
+user_id: kvural

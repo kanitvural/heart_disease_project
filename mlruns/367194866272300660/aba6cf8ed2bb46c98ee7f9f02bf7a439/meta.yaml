@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/aba6cf8ed2bb46c98ee7f9f02bf7a439/artifacts
+end_time: 1722054355624
+entry_point_name: ''
+experiment_id: '367194866272300660'
+lifecycle_stage: active
+run_id: aba6cf8ed2bb46c98ee7f9f02bf7a439
+run_name: worried-flea-67
+run_uuid: aba6cf8ed2bb46c98ee7f9f02bf7a439
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722054355433
+status: 4
+tags: []
+user_id: kvural

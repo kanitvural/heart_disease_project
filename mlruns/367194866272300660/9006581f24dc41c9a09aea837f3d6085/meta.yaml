@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/9006581f24dc41c9a09aea837f3d6085/artifacts
+end_time: 1722020932590
+entry_point_name: ''
+experiment_id: '367194866272300660'
+lifecycle_stage: active
+run_id: 9006581f24dc41c9a09aea837f3d6085
+run_name: GridSearchCV Logistic Regression
+run_uuid: 9006581f24dc41c9a09aea837f3d6085
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722020928338
+status: 3
+tags: []
+user_id: kvural

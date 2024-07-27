@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/cae9541d010b424fafdc195bacca110c/artifacts
+end_time: 1721994020019
+entry_point_name: ''
+experiment_id: '367194866272300660'
+lifecycle_stage: active
+run_id: cae9541d010b424fafdc195bacca110c
+run_name: 'Logistic Regression Scaled Model: Metric = recall'
+run_uuid: cae9541d010b424fafdc195bacca110c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721994015443
+status: 3
+tags: []
+user_id: kvural

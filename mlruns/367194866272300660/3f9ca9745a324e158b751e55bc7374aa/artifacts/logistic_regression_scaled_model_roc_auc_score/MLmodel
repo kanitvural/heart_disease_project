@@ -1,0 +1,20 @@
+artifact_path: logistic_regression_scaled_model_roc_auc_score
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.14.3
+model_size_bytes: 2343
+model_uuid: 783052c1573a4af4a1ea262b02a82579
+run_id: 3f9ca9745a324e158b751e55bc7374aa
+utc_time_created: '2024-07-27 13:34:52.874239'

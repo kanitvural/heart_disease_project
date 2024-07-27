@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/475c5b6d61a94693906680d1a450b629/artifacts
+deleted_time: 1721983125514
+end_time: 1721983073682
+entry_point_name: ''
+experiment_id: '367194866272300660'
+lifecycle_stage: deleted
+run_id: 475c5b6d61a94693906680d1a450b629
+run_name: RandomForestClassifier_Grid_Search
+run_uuid: 475c5b6d61a94693906680d1a450b629
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721983069580
+status: 3
+tags: []
+user_id: kvural

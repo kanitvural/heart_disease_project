@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/fba5baa1d45b4fd39bdc49c75e64a815/artifacts
+end_time: 1722053654355
+entry_point_name: ''
+experiment_id: '367194866272300660'
+lifecycle_stage: active
+run_id: fba5baa1d45b4fd39bdc49c75e64a815
+run_name: fearless-toad-714
+run_uuid: fba5baa1d45b4fd39bdc49c75e64a815
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722053654279
+status: 4
+tags: []
+user_id: kvural

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1721993011962
+current_stage: None
+description: null
+last_updated_timestamp: 1721993011962
+name: RandomForestClassifier_scaled_model_recall
+run_id: 6b7c7528b0b545e19e5d38a4fc97085c
+run_link: null
+source: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/6b7c7528b0b545e19e5d38a4fc97085c/artifacts/RandomForestClassifier_scaled_model_recall_score
+status: READY
+status_message: null
+storage_location: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/6b7c7528b0b545e19e5d38a4fc97085c/artifacts/RandomForestClassifier_scaled_model_recall_score
+user_id: null
+version: 23

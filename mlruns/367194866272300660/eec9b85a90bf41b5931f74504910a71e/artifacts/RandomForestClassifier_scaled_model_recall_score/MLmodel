@@ -1,0 +1,20 @@
+artifact_path: RandomForestClassifier_scaled_model_recall_score
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.14.3
+model_size_bytes: 176410
+model_uuid: 4d91a887475345d594e54f2720d79e76
+run_id: eec9b85a90bf41b5931f74504910a71e
+utc_time_created: '2024-07-26 13:27:54.796206'

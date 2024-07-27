@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1722057581090
+current_stage: None
+description: null
+last_updated_timestamp: 1722057581090
+name: RandomForestClassifier_scaled_model_roc_auc
+run_id: 65f172b79ab74d7ba0e429491d66c72f
+run_link: null
+source: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/65f172b79ab74d7ba0e429491d66c72f/artifacts/RandomForestClassifier_scaled_model_roc_auc_score
+status: READY
+status_message: null
+storage_location: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/65f172b79ab74d7ba0e429491d66c72f/artifacts/RandomForestClassifier_scaled_model_roc_auc_score
+user_id: null
+version: 7

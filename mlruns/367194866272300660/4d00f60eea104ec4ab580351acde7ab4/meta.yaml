@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/4d00f60eea104ec4ab580351acde7ab4/artifacts
+end_time: 1722054628442
+entry_point_name: ''
+experiment_id: '367194866272300660'
+lifecycle_stage: active
+run_id: 4d00f60eea104ec4ab580351acde7ab4
+run_name: fortunate-carp-115
+run_uuid: 4d00f60eea104ec4ab580351acde7ab4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722054628371
+status: 4
+tags: []
+user_id: kvural

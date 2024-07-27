@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/c34051db7e53469c84e63c7b02b1a5db/artifacts
+end_time: 1722000451603
+entry_point_name: ''
+experiment_id: '367194866272300660'
+lifecycle_stage: active
+run_id: c34051db7e53469c84e63c7b02b1a5db
+run_name: 'Logistic Regression Scaled Model: Metric = roc_auc_score'
+run_uuid: c34051db7e53469c84e63c7b02b1a5db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722000447649
+status: 3
+tags: []
+user_id: kvural

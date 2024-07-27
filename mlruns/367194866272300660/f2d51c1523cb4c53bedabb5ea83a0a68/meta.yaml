@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/kodlasam_hearth_disease_project/mlruns/367194866272300660/f2d51c1523cb4c53bedabb5ea83a0a68/artifacts
+end_time: 1722087354481
+entry_point_name: ''
+experiment_id: '367194866272300660'
+lifecycle_stage: active
+run_id: f2d51c1523cb4c53bedabb5ea83a0a68
+run_name: 'RandomForestClassifier Production Model: Metric = recall'
+run_uuid: f2d51c1523cb4c53bedabb5ea83a0a68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722087354417
+status: 4
+tags: []
+user_id: kvural

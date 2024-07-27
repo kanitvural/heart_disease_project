@@ -1,0 +1,20 @@
+artifact_path: RandomForestClassifier_scaled_model_roc_auc_score
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.14.3
+model_size_bytes: 176410
+model_uuid: 3cb8254beebf4ba89621af7f2da49f4e
+run_id: a9eed10c08284ff9a9641ada52255e8b
+utc_time_created: '2024-07-26 13:30:11.684623'
