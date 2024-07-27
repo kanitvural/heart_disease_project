@@ -89,7 +89,7 @@ git clone https://github.com/kntvrl/kodlasam_hearth_disease_project.git
 cd kodlasam_hearth_disease_project
 pythom -m venv venv
 pip install -r requirements.txt
-python hearth_app
+python hearth_app.py
 ```
 
 
