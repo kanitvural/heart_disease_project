@@ -76,10 +76,10 @@ gradio_interface = gr.Interface(
         gr.Dropdown(choices=["ecg_normal", "ecg_st_t_wave_abnormality", "ecg_left_ventricular_hypertrophy"], value="ecg_normal", label="Resting ECG Results"),
         gr.Slider(minimum=70, maximum=210, value=150, label="Maximum Heart Rate Achieved"),
         gr.Dropdown(choices=[0, 1], value=0, label="Exercise Induced Angina"),
-        gr.Slider(minimum=0, maximum=7, value=1.0, label="ST Depression Induced by Exercise"),
+        gr.Slider(minimum=0, maximum=7, value=1.0,label="ST Depression Induced by Exercise"),
         gr.Dropdown(choices=["slope_upsloping", "slope_flat", "slope_downsloping"], value="slope_upsloping", label="Slope Peak Exercise ST Segment"),
-        gr.Slider(minimum=0, maximum=3, value=0, label="Number of Major Vessels"),
-        gr.Dropdown(choices=["thal_normal", "thal_fixed_defect", "thal_reversable_defect"], value="thal_normal", label="Thal")
+        gr.Slider(minimum=0, maximum=3, step=1, value=0, label="Number of Major Vessels"),
+        gr.Dropdown(choices=["thal_normal", "thal_fixed_defect","thal_reversable_defect"], value="thal_normal", label="Thal")
     ],
     outputs=gr.HTML(),
     title="Heart Disease Risk Prediction"
