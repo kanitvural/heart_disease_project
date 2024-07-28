@@ -29,11 +29,7 @@ class HeartDiseaseInput(BaseModel):
 def predict(input_data: HeartDiseaseInput):
     input_df = pd.DataFrame([input_data.model_dump()])
     
-    print(input_df)
-
     prediction = model.predict(input_df)
-    
-    print(prediction)
     
     if prediction[0] == 0:
         return "<div style='color: green; font-size: 20px; font-weight: bold;'>Kalbinize iyi bakmışsınız tebrikler :)</div>"
