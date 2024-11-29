@@ -1,17 +1,16 @@
-# Case Study Projesi: Kardiyovasküler Hastalık Tahmini
+# Cardiovascular Disease Prediction Project
 
+## Project Description
+In this project, a machine learning model will be developed to predict cardiovascular diseases. The provided dataset contains various patient attributes and information about their cardiovascular disease status. The goal is to perform the necessary data preprocessing and feature engineering steps to improve the disease prediction accuracy using this dataset.
 
-## Proje Açıklaması
-Bu projede, kardiyovasküler hastalıkları tahmin etmek için bir makine öğrenmesi modeli geliştirilecektir. Verilen veri seti, çeşitli hasta özelliklerini ve bu hastaların kardiyovasküler hastalık durumu hakkında bilgi içermektedir. Amaç, bu veri setini kullanarak hastalık tahmin doğruluğunu artırmak için gerekli veri işleme ve özellik mühendisliği adımlarını gerçekleştirmektir.
 
 ---
 
-Kullanılacak veri seti: [Heart Disease Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)
+Dataset: [Heart Disease Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)
 
-Kurulum:
+
 ```pip install ucimlrepo```
 
-Kullanım:
 ```
 from ucimlrepo import fetch_ucirepo 
 # fetch dataset 
@@ -26,40 +25,41 @@ print(heart_disease.data.variables)
 heart_disease.variables)
 ```
 
-**Veri setinin Özelliklerinin açıklamaları:**
+**Explanation of Dataset Features:**
 
-1. **Age: Yaş** - Kişinin yaşı hakkında sayısal bilgi içerir.
-2. **Sex: Cinsiyet** - Kişinin cinsiyetini belirtir (1 = erkek; 0 = kadın).
-3. **Chest Pain Type (4 values)** - Göğüs ağrısı türünü belirtir (1: Tipik angina, 2: Atipik angina, 3: Non-anginal ağrı, 4: Asemptomatik).
-4. **Resting Blood Pressure** - Dinlenme halindeki kan basıncı (mm Hg cinsinden).
-5. **Serum Cholesterol in mg/dl** - Serum kolesterol düzeyi (mg/dl cinsinden).
-6. **Fasting Blood Sugar > 120 mg/dl** - Açlık kan şekeri seviyesi 120 mg/dl'nin üzerinde mi (1 = doğru; 0 = yanlış).
-7. **Resting ECG results (values 0, 1, 2)** - Dinlenme halindeki elektrokardiyografi sonuçları (0: Normal, 1: ST-T dalga anormallikleri, 2: Sol ventrikül hipertrofisi veya T dalga inversiyonu).
-8. **Maximum Heart Rate achieved** - Ulaşılan maksimum kalp hızı.
-9. **Exercise Induced Angina** - Egzersizle indüklenen angina (1 = evet; 0 = hayır).
-10. **ST depression induced by exercise relative to rest** - Egzersizle indüklenen ST segmenti depresyonu (dinlenmeye göre).
-11. **Slope of the peak exercise ST segment** - Egzersiz sırasında zirve ST segmentinin eğimi (1: Yukarı eğimli, 2: Düz, 3: Aşağı eğimli).
-12. **Number of major vessels (0-3) colored by fluoroscopy** - Floroskopi ile boyanmış ana damar sayısı (0-3 arası).
-13. **Thal** - Talasemi durumu (3 = normal; 6 = sabit defekt; 7 = geri dönebilen defekt).
-
----
-
-**Hedef değişken**: Presence of heart disease (Kalp hastalığı varlığı) - Kalp hastalığı olup olmadığını belirtir (1 = hastalık; 0 = hastalık yok).
+1. **Age** - Contains numerical information about the person's age.
+2. **Sex** - Indicates the person's gender (1 = male; 0 = female).
+3. **Chest Pain Type (4 values)** - Indicates the type of chest pain (1: Typical angina, 2: Atypical angina, 3: Non-anginal pain, 4: Asymptomatic).
+4. **Resting Blood Pressure** - Resting blood pressure (in mm Hg).
+5. **Serum Cholesterol in mg/dl** - Serum cholesterol level (in mg/dl).
+6. **Fasting Blood Sugar > 120 mg/dl** - Is the fasting blood sugar level greater than 120 mg/dl (1 = true; 0 = false).
+7. **Resting ECG results (values 0, 1, 2)** - Resting electrocardiogram results (0: Normal, 1: ST-T wave abnormalities, 2: Left ventricular hypertrophy or T wave inversion).
+8. **Maximum Heart Rate achieved** - Maximum heart rate achieved.
+9. **Exercise Induced Angina** - Exercise-induced angina (1 = yes; 0 = no).
+10. **ST depression induced by exercise relative to rest** - ST segment depression induced by exercise relative to rest.
+11. **Slope of the peak exercise ST segment** - Slope of the peak exercise ST segment (1: Upsloping, 2: Flat, 3: Downsloping).
+12. **Number of major vessels (0-3) colored by fluoroscopy** - Number of major vessels colored by fluoroscopy (between 0-3).
+13. **Thal** - Thalassemia status (3 = normal; 6 = fixed defect; 7 = reversible defect).
 
 
 ---
 
-**Sayısal ve kategorik özellikler**
+**Target variable**: Presence of heart disease - Indicates whether the person has heart disease (1 = disease; 0 = no disease).
 
-**Sayısal özellikler**
+
+---
+
+**Numerical and Categorical Features**
+
+**Numerical Features**
 - age: integer
 - resting_blood_pressure: integer
 - serum_cholesterol: integer
-- maximum_heart_rate_achived
+- maximum_heart_rate_achieved
 - st_depression_induced_by_exercise
 - number_major_vessels
 
-**Sayısal kategorik özellikler**
+**Categorical Features**
 - sex
 - chest_pain_type
 - fasting_blood_sugar
@@ -69,11 +69,12 @@ heart_disease.variables)
 - slope_peak_exercise_st_segment
 - presence_of_heart_disease (Target)
 
+
 ---
 
-### Projede kullanılan teknolojiler ve kurulum:
+### Tech Stack:
 
-- Proglamlama dili: `Python`   
+- Programming Language: `Python`   
       
 - Model tracking: `MLflow`
   
@@ -83,7 +84,7 @@ heart_disease.variables)
   
 - Versiyon kontrol: `Git`
 
-Kurulum:
+## Installation:
 ```
 git clone https://github.com/kntvrl/kodlasam_hearth_disease_project.git
 cd kodlasam_hearth_disease_project
@@ -92,8 +93,6 @@ pip install -r requirements.txt
 python hearth_app.py
 ```
 
-
-[Projenin yüklendiği Github sayfam](https://github.com/kntvrl/kodlasam_hearth_disease_project)
 
 
 <img src="./hearth_app.png" alt="Local Image" width="1000"/>
