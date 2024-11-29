@@ -1,4 +1,4 @@
-fold,eğitim_recall_score,validasyon_recall_score
+fold,training_recall_score,validation_recall_score
 1,0.9230769230769231,1.0
 2,0.9242424242424242,1.0
 3,0.9242424242424242,1.0

@@ -1,4 +1,4 @@
-fold,eğitim_roc_auc_score,validasyon_roc_auc_score
+fold,training_roc_auc_score,validation_roc_auc_score
 1,0.8846153846153847,0.868421052631579
 2,0.8970324547247625,0.9210526315789473
 3,0.9059081943697328,0.8947368421052632
