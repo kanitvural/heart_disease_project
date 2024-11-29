@@ -8,7 +8,7 @@ import mlflow.sklearn
 
 app = FastAPI()
 
-model_path = "models:/final_rf_model/11" 
+model_path = "models:/final_rf_model/1" 
 model = mlflow.sklearn.load_model(model_path)
 
 class HeartDiseaseInput(BaseModel):
@@ -32,16 +32,16 @@ def predict(input_data: HeartDiseaseInput):
     prediction = model.predict(input_df)
     
     if prediction[0] == 0:
-        return "<div style='color: green; font-size: 20px; font-weight: bold;'>Kalbinize iyi bakmışsınız tebrikler :)</div>"
+        return "<div style='color: green; font-size: 20px; font-weight: bold;'>You've taken great care of your heart, congratulations! 💖😊</div>"
     else:
-        return "<div style='color: red; font-size: 20px; font-weight: bold;'>Kalp hastalığı riskiniz vardır, en kısa zamanda randevu alın!</div>"
+        return "<div style='color: red; font-size: 20px; font-weight: bold;'>You are at risk of heart disease, please schedule an appointment as soon as possible! ⚠️❤️‍🩹</div>"
 
 
 @app.post("/predict")
 async def predict_endpoint(input_data: HeartDiseaseInput):
     return predict(input_data)
 
-# Gradio arayüzü
+# Gradio interface
 def gradio_predict(age, sex, chest_pain_type, resting_blood_pressure, serum_cholesterol, fasting_blood_sugar, resting_ecg_results, maximum_heart_rate_achieved, exercise_induced_angina, st_depression_induced_by_exercise, slope_peak_exercise_st_segment, number_major_vessels, thal):
     input_data = HeartDiseaseInput(
         age=age,
