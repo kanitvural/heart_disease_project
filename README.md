@@ -93,6 +93,14 @@ pip install -r requirements.txt
 python hearth_app.py
 ```
 
+## To start MLflow tracking:
+Open terminal and type
+
+`mlflow ui `
+
+## You can access the UI via the following URL:
+## http://127.0.0.1:5000
+
 
 
 <img src="./hearth_app.png" alt="Local Image" width="1000"/>
