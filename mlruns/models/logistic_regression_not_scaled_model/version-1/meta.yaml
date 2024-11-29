@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1732902375972
+current_stage: None
+description: null
+last_updated_timestamp: 1732902375972
+name: logistic_regression_not_scaled_model
+run_id: 22f0b33de02f407e844f4269f1f60add
+run_link: null
+source: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/KODLASAM_PROJECTS/kodlasam_hearth_disease_project/mlruns/846711335638530533/22f0b33de02f407e844f4269f1f60add/artifacts/logistic_regression_not_scaled_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/KODLASAM_PROJECTS/kodlasam_hearth_disease_project/mlruns/846711335638530533/22f0b33de02f407e844f4269f1f60add/artifacts/logistic_regression_not_scaled_model
+user_id: null
+version: 1

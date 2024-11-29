@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/KODLASAM_PROJECTS/kodlasam_hearth_disease_project/mlruns/846711335638530533/91cbef7227524d72be39ea4b64647036/artifacts
+end_time: 1732902434120
+entry_point_name: ''
+experiment_id: '846711335638530533'
+lifecycle_stage: active
+run_id: 91cbef7227524d72be39ea4b64647036
+run_name: 'RandomForestClassifier Scaled Model: Metric = roc_auc_score'
+run_uuid: 91cbef7227524d72be39ea4b64647036
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732902427005
+status: 3
+tags: []
+user_id: kvural

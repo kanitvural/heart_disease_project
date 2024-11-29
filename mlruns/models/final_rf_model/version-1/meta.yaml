@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1732902466671
+current_stage: None
+description: null
+last_updated_timestamp: 1732902466671
+name: final_rf_model
+run_id: 94a1dd490feb446aa24a418740df5ec3
+run_link: null
+source: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/KODLASAM_PROJECTS/kodlasam_hearth_disease_project/mlruns/846711335638530533/94a1dd490feb446aa24a418740df5ec3/artifacts/final_rf_model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/iskorpittt/Desktop/MY_DATA_SCIENCE/PROJECTS/KODLASAM_PROJECTS/kodlasam_hearth_disease_project/mlruns/846711335638530533/94a1dd490feb446aa24a418740df5ec3/artifacts/final_rf_model
+user_id: null
+version: 1
