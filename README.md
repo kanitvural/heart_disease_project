@@ -103,4 +103,4 @@ Open terminal and type
 
 
 
-<img src="./hearth_app.png" alt="Local Image" width="1000"/>
+<img src="./heart_app.png" alt="Local Image" width="1000"/>
