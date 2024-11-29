@@ -86,8 +86,8 @@ heart_disease.variables)
 
 ## Installation:
 ```
-git clone https://github.com/kntvrl/kodlasam_heart_disease_project.git
-cd kodlasam_heart_disease_project
+git clone https://github.com/kntvrl/heart_disease_project.git
+cd heart_disease_project
 pythom -m venv venv
 pip install -r requirements.txt
 python hearth_app.py
