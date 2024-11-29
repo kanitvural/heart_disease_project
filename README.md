@@ -3,7 +3,8 @@
 <img src="./heart_app_new.png" alt="Local Image" width="1000"/>
 
 ## Project Description
-In this project, a machine learning model will be developed to predict cardiovascular diseases. The provided dataset contains various patient attributes and information about their cardiovascular disease status. The goal is to perform the necessary data preprocessing and feature engineering steps to improve the disease prediction accuracy using this dataset.
+
+"In this project, a machine learning model will be developed to predict cardiovascular diseases. The provided dataset contains various patient attributes and information about their cardiovascular disease status. The goal is to perform the necessary data preprocessing and feature engineering steps to improve the disease prediction accuracy using this dataset. The data has been thoroughly analyzed, and insights have been derived. The model training processes were tracked using MLflow."
 
 
 ---
@@ -86,20 +87,35 @@ heart_disease.variables)
   
 - Versiyon kontrol: `Git`
 
-## Installation:
-```
-git clone https://github.com/kntvrl/heart_disease_project.git
-cd heart_disease_project
-pythom -m venv venv
-pip install -r requirements.txt
-python hearth_app.py
-```
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/kanitvural/heart_disease_project.git
+    cd heart_disease_project
+    python -m venv venv
+    - Windows: venv\Scripts\activate
+    - Linux: source venv/bin/activate
+    - Mac: source venv/bin/activate
+    ```
+
+2. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run app:
+    ```bash
+    python heart_app.py
+    ```
+## You can access the Gradio UI via the following URL:
+## http://127.0.0.1:7860
 
 ## To start MLflow tracking:
 Open terminal and type
 
 `mlflow ui `
 
-## You can access the UI via the following URL:
+## You can access the MLflow UI via the following URL:
 ## http://127.0.0.1:5000
 
