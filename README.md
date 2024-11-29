@@ -1,5 +1,7 @@
 # Cardiovascular Disease Prediction Project
 
+<img src="./heart_app.png" alt="Local Image" width="1000"/>
+
 ## Project Description
 In this project, a machine learning model will be developed to predict cardiovascular diseases. The provided dataset contains various patient attributes and information about their cardiovascular disease status. The goal is to perform the necessary data preprocessing and feature engineering steps to improve the disease prediction accuracy using this dataset.
 
@@ -101,6 +103,3 @@ Open terminal and type
 ## You can access the UI via the following URL:
 ## http://127.0.0.1:5000
 
-
-
-<img src="./heart_app.png" alt="Local Image" width="1000"/>
